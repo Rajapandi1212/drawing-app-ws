@@ -1,0 +1,17 @@
+{
+  "name": "drawing-app-be",
+  "version": "0.1.0",
+  "description": "Websocket powered real time drawing application server.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Rajapandi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
